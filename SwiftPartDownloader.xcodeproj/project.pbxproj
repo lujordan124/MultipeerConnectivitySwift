@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75C38EE71978140200DEAC33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C38EE61978140200DEAC33 /* AppDelegate.swift */; };
+		75C38EEA1978140200DEAC33 /* SwiftPartDownloader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75C38EE81978140200DEAC33 /* SwiftPartDownloader.xcdatamodeld */; };
+		75C38EEC1978140200DEAC33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C38EEB1978140200DEAC33 /* ViewController.swift */; };
+		75C38EEF1978140200DEAC33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C38EED1978140200DEAC33 /* Main.storyboard */; };
+		75C38EF11978140200DEAC33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C38EF01978140200DEAC33 /* Images.xcassets */; };
+		75C38EFD1978140200DEAC33 /* SwiftPartDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C38EFC1978140200DEAC33 /* SwiftPartDownloaderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C38EF71978140200DEAC33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C38ED91978140200DEAC33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C38EE01978140200DEAC33;
+			remoteInfo = SwiftPartDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75C38EE11978140200DEAC33 /* SwiftPartDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPartDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C38EE51978140200DEAC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C38EE61978140200DEAC33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75C38EE91978140200DEAC33 /* SwiftPartDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPartDownloader.xcdatamodel; sourceTree = "<group>"; };
+		75C38EEB1978140200DEAC33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75C38EEE1978140200DEAC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75C38EF01978140200DEAC33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75C38EF61978140200DEAC33 /* SwiftPartDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPartDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C38EFB1978140200DEAC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C38EFC1978140200DEAC33 /* SwiftPartDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPartDownloaderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C38EDE1978140200DEAC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C38EF31978140200DEAC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75C38ED81978140200DEAC33 = {
+			isa = PBXGroup;
+			children = (
+				75C38EE31978140200DEAC33 /* SwiftPartDownloader */,
+				75C38EF91978140200DEAC33 /* SwiftPartDownloaderTests */,
+				75C38EE21978140200DEAC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C38EE21978140200DEAC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C38EE11978140200DEAC33 /* SwiftPartDownloader.app */,
+				75C38EF61978140200DEAC33 /* SwiftPartDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C38EE31978140200DEAC33 /* SwiftPartDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				75C38EE61978140200DEAC33 /* AppDelegate.swift */,
+				75C38EEB1978140200DEAC33 /* ViewController.swift */,
+				75C38EED1978140200DEAC33 /* Main.storyboard */,
+				75C38EF01978140200DEAC33 /* Images.xcassets */,
+				75C38EE81978140200DEAC33 /* SwiftPartDownloader.xcdatamodeld */,
+				75C38EE41978140200DEAC33 /* Supporting Files */,
+			);
+			path = SwiftPartDownloader;
+			sourceTree = "<group>";
+		};
+		75C38EE41978140200DEAC33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75C38EE51978140200DEAC33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75C38EF91978140200DEAC33 /* SwiftPartDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				75C38EFC1978140200DEAC33 /* SwiftPartDownloaderTests.swift */,
+				75C38EFA1978140200DEAC33 /* Supporting Files */,
+			);
+			path = SwiftPartDownloaderTests;
+			sourceTree = "<group>";
+		};
+		75C38EFA1978140200DEAC33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75C38EFB1978140200DEAC33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C38EE01978140200DEAC33 /* SwiftPartDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C38F001978140200DEAC33 /* Build configuration list for PBXNativeTarget "SwiftPartDownloader" */;
+			buildPhases = (
+				75C38EDD1978140200DEAC33 /* Sources */,
+				75C38EDE1978140200DEAC33 /* Frameworks */,
+				75C38EDF1978140200DEAC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPartDownloader;
+			productName = SwiftPartDownloader;
+			productReference = 75C38EE11978140200DEAC33 /* SwiftPartDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C38EF51978140200DEAC33 /* SwiftPartDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C38F031978140200DEAC33 /* Build configuration list for PBXNativeTarget "SwiftPartDownloaderTests" */;
+			buildPhases = (
+				75C38EF21978140200DEAC33 /* Sources */,
+				75C38EF31978140200DEAC33 /* Frameworks */,
+				75C38EF41978140200DEAC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C38EF81978140200DEAC33 /* PBXTargetDependency */,
+			);
+			name = SwiftPartDownloaderTests;
+			productName = SwiftPartDownloaderTests;
+			productReference = 75C38EF61978140200DEAC33 /* SwiftPartDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C38ED91978140200DEAC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jordanLu;
+				TargetAttributes = {
+					75C38EE01978140200DEAC33 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					75C38EF51978140200DEAC33 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 75C38EE01978140200DEAC33;
+					};
+				};
+			};
+			buildConfigurationList = 75C38EDC1978140200DEAC33 /* Build configuration list for PBXProject "SwiftPartDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C38ED81978140200DEAC33;
+			productRefGroup = 75C38EE21978140200DEAC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C38EE01978140200DEAC33 /* SwiftPartDownloader */,
+				75C38EF51978140200DEAC33 /* SwiftPartDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C38EDF1978140200DEAC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C38EEF1978140200DEAC33 /* Main.storyboard in Resources */,
+				75C38EF11978140200DEAC33 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C38EF41978140200DEAC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C38EDD1978140200DEAC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C38EEC1978140200DEAC33 /* ViewController.swift in Sources */,
+				75C38EEA1978140200DEAC33 /* SwiftPartDownloader.xcdatamodeld in Sources */,
+				75C38EE71978140200DEAC33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C38EF21978140200DEAC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C38EFD1978140200DEAC33 /* SwiftPartDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75C38EF81978140200DEAC33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C38EE01978140200DEAC33 /* SwiftPartDownloader */;
+			targetProxy = 75C38EF71978140200DEAC33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75C38EED1978140200DEAC33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C38EEE1978140200DEAC33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75C38EFE1978140200DEAC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75C38EFF1978140200DEAC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C38F011978140200DEAC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftPartDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75C38F021978140200DEAC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftPartDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75C38F041978140200DEAC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftPartDownloader.app/SwiftPartDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftPartDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		75C38F051978140200DEAC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftPartDownloader.app/SwiftPartDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftPartDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C38EDC1978140200DEAC33 /* Build configuration list for PBXProject "SwiftPartDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C38EFE1978140200DEAC33 /* Debug */,
+				75C38EFF1978140200DEAC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C38F001978140200DEAC33 /* Build configuration list for PBXNativeTarget "SwiftPartDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C38F011978140200DEAC33 /* Debug */,
+				75C38F021978140200DEAC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75C38F031978140200DEAC33 /* Build configuration list for PBXNativeTarget "SwiftPartDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C38F041978140200DEAC33 /* Debug */,
+				75C38F051978140200DEAC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75C38EE81978140200DEAC33 /* SwiftPartDownloader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75C38EE91978140200DEAC33 /* SwiftPartDownloader.xcdatamodel */,
+			);
+			currentVersion = 75C38EE91978140200DEAC33 /* SwiftPartDownloader.xcdatamodel */;
+			path = SwiftPartDownloader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75C38ED91978140200DEAC33 /* Project object */;
+}
