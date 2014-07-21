@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6162" systemVersion="14A238h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6160"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftPartDownloader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,96 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omM-VV-JcQ">
+                                <rect key="frame" x="176" y="225" width="129" height="30"/>
+                                <state key="normal" title="Check for Updates">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkForUpdates:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YkA-m7-xBN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEs-pn-82i">
+                                <rect key="frame" x="211" y="187" width="59" height="30"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ConnectButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qEm-A6-dVS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87N-qG-FPp">
+                                <rect key="frame" x="204" y="263" width="72" height="30"/>
+                                <state key="normal" title="Send Files">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendFilesToOtherDevices:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EtL-JQ-dfv"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="87N-qG-FPp" firstAttribute="top" secondItem="omM-VV-JcQ" secondAttribute="bottom" constant="8" symbolic="YES" id="1lx-wa-o47"/>
+                            <constraint firstItem="MEs-pn-82i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="166" id="2a6-eC-uDX"/>
+                            <constraint firstItem="omM-VV-JcQ" firstAttribute="centerX" secondItem="87N-qG-FPp" secondAttribute="centerX" id="3wk-83-LRw"/>
+                            <constraint firstItem="MEs-pn-82i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="165" id="6Pf-jy-HZA">
+                                <variation key="heightClass=regular-widthClass=regular" constant="266"/>
+                            </constraint>
+                            <constraint firstItem="omM-VV-JcQ" firstAttribute="centerX" secondItem="MEs-pn-82i" secondAttribute="centerX" id="APf-xW-OHb"/>
+                            <constraint firstItem="omM-VV-JcQ" firstAttribute="centerX" secondItem="MEs-pn-82i" secondAttribute="centerX" id="L0e-4W-Idb"/>
+                            <constraint firstItem="87N-qG-FPp" firstAttribute="centerX" secondItem="omM-VV-JcQ" secondAttribute="centerX" id="LTJ-Ut-BOl"/>
+                            <constraint firstItem="87N-qG-FPp" firstAttribute="top" secondItem="omM-VV-JcQ" secondAttribute="bottom" constant="8" symbolic="YES" id="ikT-pM-Dq8"/>
+                            <constraint firstItem="omM-VV-JcQ" firstAttribute="top" secondItem="MEs-pn-82i" secondAttribute="bottom" constant="8" symbolic="YES" id="se7-c0-SPi"/>
+                            <constraint firstItem="omM-VV-JcQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ucG-Pz-Lpm"/>
+                            <constraint firstItem="omM-VV-JcQ" firstAttribute="top" secondItem="MEs-pn-82i" secondAttribute="bottom" constant="8" symbolic="YES" id="v5t-Gk-Ina"/>
+                            <constraint firstItem="87N-qG-FPp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wPC-n9-MMW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2a6-eC-uDX"/>
+                                <exclude reference="6Pf-jy-HZA"/>
+                                <exclude reference="3wk-83-LRw"/>
+                                <exclude reference="APf-xW-OHb"/>
+                                <exclude reference="L0e-4W-Idb"/>
+                                <exclude reference="se7-c0-SPi"/>
+                                <exclude reference="ucG-Pz-Lpm"/>
+                                <exclude reference="v5t-Gk-Ina"/>
+                                <exclude reference="1lx-wa-o47"/>
+                                <exclude reference="LTJ-Ut-BOl"/>
+                                <exclude reference="ikT-pM-Dq8"/>
+                                <exclude reference="wPC-n9-MMW"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="2a6-eC-uDX"/>
+                                <include reference="APf-xW-OHb"/>
+                                <include reference="se7-c0-SPi"/>
+                                <include reference="ucG-Pz-Lpm"/>
+                                <include reference="LTJ-Ut-BOl"/>
+                                <include reference="ikT-pM-Dq8"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="6Pf-jy-HZA"/>
+                                <include reference="3wk-83-LRw"/>
+                                <include reference="L0e-4W-Idb"/>
+                                <include reference="v5t-Gk-Ina"/>
+                                <include reference="1lx-wa-o47"/>
+                                <include reference="wPC-n9-MMW"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="sendFilesButton" destination="87N-qG-FPp" id="0BG-pA-JnN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-144" y="55.5"/>
         </scene>
     </scenes>
 </document>
